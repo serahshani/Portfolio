@@ -6,6 +6,7 @@
   font-family: "Montserrat", sans-serif;
   -webkit-transition: 0.3s ease-in-out all;
   transition: 0.3s ease-in-out all;
+  outline: solid 1px red;
 }
 
 ::-webkit-scrollbar {
@@ -134,6 +135,7 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    background-color: unset;
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
@@ -193,6 +195,10 @@
     display: block;
     margin: 0;
     overflow: visible;
+    margin-top: 2rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 
@@ -382,6 +388,9 @@
     overflow: visible;
     margin-left: 0.05rem;
     padding: 1rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 
@@ -673,7 +682,6 @@
   display: -ms-flexbox;
   display: flex;
   z-index: 30;
-  margin: 1rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -687,6 +695,7 @@
 @media screen and (max-width: 600px) {
   .pageholder .footer {
     position: fixed;
+    display: none;
     background-color: #e7edfd;
     margin: auto;
     padding: auto;
