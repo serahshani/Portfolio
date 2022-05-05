@@ -6,7 +6,6 @@
   font-family: "Montserrat", sans-serif;
   -webkit-transition: 0.3s ease-in-out all;
   transition: 0.3s ease-in-out all;
-  outline: solid 1px red;
 }
 
 ::-webkit-scrollbar {
