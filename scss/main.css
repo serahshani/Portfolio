@@ -7,18 +7,6 @@
   -webkit-transition: 0.3s ease-in-out all;
   transition: 0.3s ease-in-out all;
 }
-@keyframes exampl{
-  from {background-color: lime;}
-  to {background-color: blue;
-  }
-}
-div {
-  width: 100px;
-  height: 100px;
-  background-color: lime;
-  animation-name: example;
-  animation-duration: 4s;
-}
 ::-webkit-scrollbar {
   display: none;
 }
